@@ -1,3 +1,4 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/ewerttrewe/django-ecommerce) ![Maintenance](https://img.shields.io/maintenance/no/2022) 
 # Django Ecommerce App
 > **Ecommerce site with implemented payment options via paypal for logged in and not logged in users (tracked by cookies)- django project, no REST API**
 
