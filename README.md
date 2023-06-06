@@ -18,5 +18,11 @@ You need to follow few steps below in order to use this app on your local machin
 7. Open web browser and try to connect to `http://localhost:8000`<br>
 8. Now you should be able to test UI and add products to the cart, you can try to checkout and pay for something using PayPal, you can create - [PayPal Sandbox For Developers](https://developer.paypal.com/home) in order to mimic the real transaction.<br><br>
 
+
+> **Disclaimer:** You can open a Python shell within the project's directory and run the following command to generate a new secret key and add it to `settings.py`, at the top level there is `SECRET_KEY=''` empty variable:<br>
+`python manage.py shell`<br>
+`from django.core.management.utils import get_random_secret_key`<br>
+`get_random_secret_key()`<br><br>
+
 https://user-images.githubusercontent.com/93892998/209131491-d3e78d61-7a19-475c-b3aa-f55ff00a8148.mp4
 
